@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Travel Planner</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="StyleSheet" href="styles.css" type="text/css">
+    <link rel="StyleSheet" href="style-override.css" type="text/css" />
+	<link rel="StyleSheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+<div class="container">
+
+<header>
+    <h1>Travel Planner</h1>
+</header>
+
+<summary>
+<div id ="holder">
+    <label for="zip">Enter ZIP code here:</br></label>
+    <input type="text" id="zip" placeholder="ZIP" value="">
+</div>
+</br>  
+<div id ="holder">
+    <label for="country">Enter two-letter country code here:</br></label>
+    <input type="text" id="country" placeholder="Two-letter country code" value="">
+</div>
+<br>
+<div id ="holder">
+    <label for="feelings">How are you feeling today?</br></label>
+    <input type="text" id="feelings" placeholder="" value="">
+</div>
+</summary>
+
+<div class="olderPosts">
+
+</div>
+
+<div class="sidebar">
+    <div id="profileCard">
+<label for= "title">Your entry:</label>
+    <div id = "entry">
+      <em>Date: </em><span id = "date"></span></br> 
+      <em>Temperature: </em><span id = "temp"></span><em> C°</em></br>
+      <em>You are feeling </em><span id = "content"></span>
+    </div>  
+    </div>
+	
+    <div id="button">
+        <button id="generate" type = "submit"> Generate </button>
+    </div>
+</div>
+
+<footer>
+    
+</footer>
+
+</div>
+
+<script src="app.js" type="text/javascript"></script>
+
+</body>
+</html>

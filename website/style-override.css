@@ -1,0 +1,20 @@
+@media only screen and (max-width: 40em)  {
+    #fakeimg2{
+        margin-left: 1em;
+    }
+    #fakeimg3{
+        margin-left: 1em;
+    }
+	.footer{
+        display:none;
+    }
+}
+
+@media only screen and (min-width: 64.063em) {
+    .container {
+        grid-template-columns: 30% 10% 20%;
+    }
+    .container2 {
+        grid-template-columns: 30% 10% 20%;
+    }
+}
